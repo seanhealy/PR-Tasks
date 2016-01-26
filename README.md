@@ -6,7 +6,7 @@ Tired of loosing comments on pull requests before they are resolved? Now you don
 have to! Just make *tasks* with your comments and they will be checked tracked in the
 Branch Actions.
 
-![Making Tasks](http://d.pr/i/1jbp6.png)
+![Making Tasks](http://d.pr/i/1O3D.png)
 
 ![Viewing Tasks](http://d.pr/i/1han9.png)
 
@@ -38,3 +38,6 @@ After downloading, drag the extension file to your extensions list.
 
 https://support.mozilla.org/en-US/questions/1009049
 
+## Updates
+
+PR Tasks doesn't currently auto update. Will be looking into that next. So, until then you need to do it manually. :(
