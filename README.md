@@ -1,10 +1,9 @@
 # PR Tasks
 
-Track tasks on GitHub pull requests.
-
-Tired of loosing comments on pull requests before they are resolved? Now you don't
-have to! Just make *tasks* with your comments and they will be checked tracked in the
-Branch Actions.
+GitHub has long supported the creation of tasks in Pull Requests. It just doesn't
+track them. Now it can! No more loosing comments on pull requests before they are
+resolved. Just make *tasks* with your comments and they will be tracked in the
+Pull Request Status.
 
 ![Making Tasks](http://d.pr/i/1O3D.png)
 
@@ -12,6 +11,8 @@ Branch Actions.
 
 
 ## How to create a task:
+
+In your comment just do the following:
 
 ```
 - [ ] Task Name
