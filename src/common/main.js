@@ -9,7 +9,7 @@
 
     var buildStatusItem = function(commentID, text) {
       var inner = [
-        '<a class="build-status-details right" href="#' + commentID + '">Details</a>',
+        '<a class="build-status-details right" href="#' + commentID + '">Show</a>',
         '<span aria-hidden="true" class="octicon octicon-x build-status-icon text-error"></span>',
         '<span class="text-muted css-truncate css-truncate-target">',
           '<strong class="text-emphasized"> Incomplete Task</strong>',
