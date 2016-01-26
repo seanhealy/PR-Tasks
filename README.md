@@ -38,3 +38,6 @@ After downloading, drag the extension file to your extensions list.
 
 https://support.mozilla.org/en-US/questions/1009049
 
+## Updates
+
+PR Tasks doesn't currently auto update. Will be looking into that next. So, until then you need to do it manually. :(
