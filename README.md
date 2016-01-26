@@ -1,7 +1,7 @@
 # PR Tasks
 
 GitHub has long supported the creation of tasks in Pull Requests. It just doesn't
-track them. Now it can! No more loosing comments on pull requests before they are
+track them. Now it can! No more losing comments on pull requests before they are
 resolved. Just make *tasks* with your comments and they will be tracked in the
 Pull Request Status.
 
