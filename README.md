@@ -14,3 +14,25 @@ Branch Actions.
 ```
 - [ ] Task Name
 ```
+
+## Installation
+
+Download the [latest release](https://github.com/seanhealy/PR-Tasks/releases/latest).
+Then, follow the instructions for your browser.
+
+### Chrome
+
+After downloading drag the extension file. To your extensions list.
+
+https://www.maketecheasier.com/manually-install-extensions-google-chrome/
+
+### Safari
+
+After downloading open the extension file. Follow the prompts.
+
+### Firefox
+
+After downloading drag the extension file. To your extensions list.
+
+https://support.mozilla.org/en-US/questions/1009049
+
