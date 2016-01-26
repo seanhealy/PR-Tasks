@@ -3,7 +3,7 @@
     "description": "Help track tasks on GitHub pull requests.",
     "creator": "Sean Healy",
     "homepage_url": "http://kangoextensions.com/",
-    "version": "0.9.0",
+    "version": "0.0.1",
     "name": "PR Tasks",
     "content_scripts": [
         "main.js"
