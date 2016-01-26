@@ -9,6 +9,10 @@ Pull Request Status.
 
 ![Viewing Tasks](http://d.pr/i/1han9.png)
 
+It will even track issues that GitHub hides that have not yet been resolved.
+
+![Tracks Hidden issues](http://d.pr/i/1kHfT.png)
+
 
 ## How to create a task:
 
