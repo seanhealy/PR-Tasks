@@ -3,7 +3,7 @@
     "description": "Help track tasks on GitHub pull requests.",
     "creator": "Sean Healy",
     "homepage_url": "https://github.com/seanhealy/PR-Tasks",
-    "version": "0.0.3",
+    "version": "1.0.0",
     "name": "PR Tasks",
     "content_scripts": [
         "main.js"
