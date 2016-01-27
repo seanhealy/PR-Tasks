@@ -1,28 +1,37 @@
 # PR Tasks
 
-GitHub has long supported the creation of tasks in Pull Requests. It just doesn't
-track them. Now it can! No more losing comments on pull requests before they are
-resolved. Just make *tasks* with your comments and they will be tracked in the
-Pull Request Status.
+In GitHub's current Pull Request interface it is easy to loose track of comments when
+the line the comment is on is changed. This *auto resolution* occurs whether or not
+the underlying issue has actually been addressed.
 
-![Making Tasks](http://d.pr/i/1O3D.png)
+This Extension creates an *issue* for each comment thread and adds a warning to the
+Pull Request Status until the *issue* is explicitly resolved.
 
-![Viewing Tasks](http://d.pr/i/1han9.png)
-
-It will even track issues that GitHub hides that have not yet been resolved.
+It ignores GitHub's hiding of outdated diffs so they will no longer hide away
+unresolved comments.
 
 ![Tracks Hidden issues](http://d.pr/i/1kHfT.png)
 
+# Usage
 
-## How to create a task:
+### Creating an Issue
 
-In your comment just do the following:
+An issue is automatically created whenever you comment on a line in the diff.
 
-```
-- [ ] Task Name
-```
+### Resolving an Issue
 
-## Installation
+Just click the `Resolve` button at the end of the comment chain. You can also
+manually resolve an issue by including a `:white_check_mark:` in a comment.
+
+### Reopening an Issue
+
+To reopen an issue just add another comment after the existing resolution.
+
+# Demo
+
+<center>![Demo](http://d.pr/i/10w9g.gif)</center>
+
+# Installation
 
 Download the [latest release](https://github.com/seanhealy/PR-Tasks/releases/latest).
 Then, follow the instructions for your browser.
@@ -43,6 +52,6 @@ After downloading, drag the extension file to your extensions list.
 
 https://support.mozilla.org/en-US/questions/1009049
 
-## Updates
+# Updates
 
 PR Tasks doesn't currently auto update. Will be looking into that next. So, until then you need to do it manually. :(
