@@ -7,7 +7,7 @@
 (function(){
   if(window.location.hostname === 'github.com' && window.location.pathname.match(/\/pull\/.+?$/)) {
     var RESOLVED_EMOJI = ':white_check_mark:';
-    var RESOLVED_EMOJI_SELECTOR = '.emoji[alt="' + RESOLVED_EMOJI + '"]';
+    var RESOLVED_EMOJI_SELECTOR = '.emoji[alt="' + RESOLVED_EMOJI + '"], g-emoji[alias="white_check_mark"]';
 
     var jQueryInstance = jQuery.noConflict(true);
 
@@ -31,6 +31,10 @@
       statusItem.classList.add('build-status-item');
       statusItem.classList.add('pr-helper-addition');
       statusItem.innerHTML = inner;
+      statusItem.querySelector('a').addEventListener('click', function(event) {
+        var commentNumber = commentID.replace(/\D/g,'')
+        document.querySelector('#diff-for-comment-' + commentNumber).classList.add('open');
+      });
       return statusItem;
     };
 
@@ -82,11 +86,11 @@
         oldAddition.remove()
       });
 
-      var root;
-      if(!!document.querySelector('.selected[data-container-id="discussion_bucket"]')) {
+      // var root;
+      if(!!document.querySelector('.selected #conversation_tab_counter')) {
         root = document.querySelector('#discussion_bucket');
       }
-      else if(!!document.querySelector('.selected[data-container-id="files_bucket"]')) {
+      else if(!!document.querySelector('.selected #files_tab_counter')) {
         root = document.querySelector('#diff');
       }
 
